@@ -1,0 +1,199 @@
+body{
+    font-family: 'Montserrat',sans-serif;
+    text-align: center;
+}
+
+
+h1,h2,h3{
+    font-family: "Montserrat",sans-serif;
+}
+
+p{
+    color: rgb(137, 135, 135);
+}
+
+.container-fluid{
+    padding: 0%;
+}
+
+.coloured{
+    background-color: rgb(165, 236, 236);
+}
+
+.plain{
+    background-color: aliceblue;
+
+}
+/* title section */
+
+#title{
+    padding-bottom: 4%;
+}
+
+.ele1{
+    margin: auto;
+}
+
+/* navbar section */
+
+    .navbar-brand{
+        color: azure;
+        font-weight: 400;
+        margin-left: 2%;
+        font-size: 25px;
+    }
+
+    .nav-link{
+        color: aliceblue;
+        font-weight: 300;
+    }
+
+    .navbar{
+        margin-bottom: 5%;
+        
+    }
+
+    .nav-item{
+        padding: 0 11px;
+    }
+
+    /* 1st section */
+
+    .title-head{
+        font-weight: 700;
+        font-size: 3rem;
+        line-height: 1.5;
+        margin-bottom: 45px;
+        color: rgb(9, 62, 238);
+    }
+
+    .img1{
+        width: 80%;
+        padding: 7% 12%;
+        
+    }
+
+    .iosbtn1{
+        margin-right: 2.5%;
+    }
+
+    .btn{
+        margin-left: 1.75%;
+    }
+
+/* features section */
+
+#features{
+    padding: 10% 12%;
+    
+}
+
+.feat{
+    font-weight: bold;
+}
+
+.icon1{
+    color: rgb(11, 90, 187);
+    margin: auto;
+}
+
+.feature-box{
+    padding: 6%;
+    text-size-adjust: 40%;
+}
+
+.icon1:hover{
+    color: rgb(26, 232, 239);
+}
+
+/* testimonial section */
+
+#testimonials{
+    padding: 15% 8%;
+    color: rgb(18, 73, 225);
+}
+
+
+.test-img{
+    width: 15%;
+    border-radius: 100%;
+    margin: 2.5% 2.5%;
+}
+
+/* press section */
+
+#press{
+    padding: 15% 5%;
+    
+}
+
+.press-logo{
+    padding: 7% 7%;
+    width: 50%;
+
+}
+
+.car1{
+    background-color: rgb(229, 235, 49);
+}
+
+/* pricing section */
+
+#pricing{
+    padding: 12% 10%;
+}
+
+.heading{
+    margin-bottom: 2.5%;
+    color: blue;
+}
+
+.card{
+    padding: 2% 2%;
+    margin-top: 4%;
+    color: rgb(17, 15, 1);
+}
+
+/* footer section */
+
+#cta{
+    background-color: rgb(15, 14, 0);
+    color: aliceblue;
+    padding: 2% 5%;
+    line-height: 5rem;
+}
+
+.icons{
+    margin: 10px 10px;
+}
+
+@media screen and (max-width:980px) 
+{
+    #title{
+        text-align: center;
+    }
+    p{
+        color: rgb(110, 80, 107);
+    }
+    #features{
+        text-align: center;
+        padding: 0%;
+        font-size: large;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
